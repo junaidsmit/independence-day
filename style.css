@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-color: green;
+    text-align: center;
+}
+
+.container ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.container ul li {
+    width: 200px;
+    margin: 5px;
+    padding: 10px;
+    ;
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.active,.container ul li:hover {
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+.container ul li .fa-solid,
+.container ul li .fa-brands {
+    color:white;
+    margin-right: 10px;
+}
+.submenu-1{display:none;
+}
+
+.container ul li:hover .submenu-1 {
+    display:block;
+    position: absolute;
+    background-color: aqua;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+.container ul li:hover .submenu-1 ul {display:block;}
+.container ul li:hover .submenu-1 ul li{border-bottom: 2px solid red;}
+.container ul li:hover .submenu-1 ul li:last-child{border-bottom: 0px solid red;}
