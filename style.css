@@ -26,27 +26,82 @@
     font-size: 20px;
 }
 
-.active,.container ul li:hover {
+.active,
+.container ul li:hover {
     background-color: blueviolet;
     border-radius: 10px;
 }
 
 .container ul li .fa-solid,
 .container ul li .fa-brands {
-    color:white;
+    color: white;
     margin-right: 10px;
 }
-.submenu-1{display:none;
+
+.submenu-1 {
+    display: none;
 }
 
 .container ul li:hover .submenu-1 {
-    display:block;
+    display: block;
     position: absolute;
     background-color: aqua;
     border-radius: 10px;
     margin-top: 10px;
     margin-left: -10px;
 }
-.container ul li:hover .submenu-1 ul {display:block;}
-.container ul li:hover .submenu-1 ul li{border-bottom: 2px solid red;}
-.container ul li:hover .submenu-1 ul li:last-child{border-bottom: 0px solid red;}
+
+.container ul li:hover .submenu-1 ul {
+    display: block;
+}
+
+.container ul li:hover .submenu-1 ul li {
+    border-bottom: 2px solid red;
+}
+
+.container ul li:hover .submenu-1 ul li:last-child {
+    border-bottom: 0px solid red;
+}
+
+
+
+.card {
+    display: inline-block;
+    
+    border: 1px solid yellow;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+    background-color: rgb(4, 205, 4);
+
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+}
+
+.card h1 {
+    color: white;
+    margin: 20px
+
+}
+
+.card button {
+    margin: 15px 0px 0px 40px;
+    border-radius: 300px;
+    border: 1px solid green;
+    background-color: white;
+    color: rgb(0, 200, 50);
+    font-weight: bolder;
+    width: 200px;
+    height: 50px;
+}
+.card:hover,
+.card button:hover{box-shadow: 5px 5px 50px rgb(3, 245, 3);
+transform: scale(1.03);}
+
+@media only screen and (min-width:900px)
+{.card{margin:1% width: 20%; height: 400px;}}
+@media only screen and (min-width:400px) and (max-width:500px)
+{.card{margin:3% width: 90%; height: 400px;}}
