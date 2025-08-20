@@ -233,6 +233,36 @@ button {margin:5% 15%;
 }
 footer h1{font-size:1.2em;
 word-spacing:normal;}
-    
+    @media only screen and (max-width: 5    00px) {
+.card {
+        margin: 5% 2%;
+        width: 40%;
+        height: 60vh;
+        padding:2%
+    }
+
+    .card img {
+        width: 80%;
+        height: 300px;
+        margin:5%;
+        
+        }
+
+    .container ul li {
+        width:16%;}
+
+main h1 {
+    margin:3% 33% 1%;
+
+}
+
+button {margin:5% 15%;
+        width: 70%;
+        height: 6vh;
+    }
+}
+footer h1{font-size:1.2em;
+word-spacing:normal;}
+
 
 
