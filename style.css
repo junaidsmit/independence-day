@@ -182,7 +182,7 @@ button a {color:black;}
             width: 32%;
         
         }
-    }*/
+    }
 @media only screen and (min-width: 900px) {
     .card {
         margin: 1.4%;
@@ -190,6 +190,8 @@ button a {color:black;}
         height: 410px;
     }   
     h1{width:100%}
+    main h1 {width: 15%;
+        margin:3% 40%;}
 
     .card img {
         width: 93%;
@@ -232,8 +234,9 @@ button {margin:5% 15%;
     }
 }
 footer h1{font-size:1.2em;
-word-spacing:normal;}
-    @media only screen and (max-width: 5    00px) {
+word-spacing:normal;}*/
+
+    @media only screen and (max-width: 500px) {
 .card {
         margin: 5% 2%;
         width: 40%;
