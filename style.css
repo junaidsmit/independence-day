@@ -157,32 +157,6 @@ footer #s1 {
 button a {color:black;}
 
 
-
-
-
-
-
-
-/* @media only screen and (max-width:299px) {  
-        .card {
-            width: 100%;
-            
-        }
-    }
-    
-    @media only screen and (min-width:300px) and (max-width:599px) {
-        .card {
-            width: 48%;
-            
-        }
-    }
-    @media only screen and (min-width:600px) and (max-width:899px) {
-        .card {
-        
-            width: 32%;
-        
-        }
-    }
 @media only screen and (min-width: 900px) {
     .card {
         margin: 1.4%;
@@ -204,8 +178,28 @@ button a {color:black;}
         height: 6vh;
     }
 }
+    @media only screen and (min-width:300px) and (max-width: 500px) {
+*{margin:0;
+padding:0;}
+.container{flex-direction: column;}
+.container ul li a {
+    font-size: 0.8rem;}
+        .container ul li {
+    width:20% ;
+    margin: 0 ;
+    padding:0;
+    
+    
+    
+}
+        
+.container ul li .fa-solid,
+.container ul li .fa-brands {
+    margin-right: 0;
+}
+#logo img{width:100%}
+  
 
-@media only screen and (max-width: 700px) {
 .card {
         margin: 5% 2%;
         width: 40%;
@@ -220,39 +214,6 @@ button a {color:black;}
         
         }
 
-    .container ul li {
-        width:16%;}
-
-main h1 {
-    margin:3% 33% 1%;
-
-}
-
-button {margin:5% 15%;
-        width: 70%;
-        height: 6vh;
-    }
-}
-footer h1{font-size:1.2em;
-word-spacing:normal;}*/
-
-    @media only screen and (max-width: 500px) {
-.card {
-        margin: 5% 2%;
-        width: 40%;
-        height: 60vh;
-        padding:2%
-    }
-
-    .card img {
-        width: 80%;
-        height: 300px;
-        margin:5%;
-        
-        }
-
-    .container ul li {
-        width:16%;}
 
 main h1 {
     margin:3% 33% 1%;
@@ -266,6 +227,13 @@ button {margin:5% 15%;
 }
 footer h1{font-size:1.2em;
 word-spacing:normal;}
+
+
+
+
+
+
+
 
 
 
