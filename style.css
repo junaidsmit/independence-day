@@ -17,7 +17,7 @@ h1 {
 
 a {
     text-decoration: none;
- color: rgb(0, 80, 0);
+    color: rgb(0, 80, 0);
 }
 
 .container {
@@ -64,7 +64,7 @@ a {
 .container ul li:hover .submenu-1 {
     display: block;
     position: absolute;
-    background-color:aquamarine;
+    background-color: aquamarine;
     border-radius: 10px;
     margin-top: 10px;
     margin-left: -10px;
@@ -154,7 +154,10 @@ footer h1 {
 footer #s1 {
     color: red
 }
-button a {color:black;}
+
+button a {
+    color: black;
+}
 
 
 @media only screen and (min-width: 900px) {
@@ -162,10 +165,16 @@ button a {color:black;}
         margin: 1.4%;
         width: 18%;
         height: 410px;
-    }   
-    h1{width:100%}
-    main h1 {width: 15%;
-        margin:3% 40%;}
+    }
+
+    h1 {
+        width: 100%
+    }
+
+    main h1 {
+        width: 15%;
+        margin: 3% 40%;
+    }
 
     .card img {
         width: 93%;
@@ -178,62 +187,64 @@ button a {color:black;}
         height: 6vh;
     }
 }
-    @media only screen and (min-width:300px) and (max-width: 500px) {
-*{margin:0;
-padding:0;}
-.container{flex-direction: column;}
-.container ul li a {
-    font-size: 0.8rem;}
-        .container ul li {
-    width:20% ;
-    margin: 0 ;
-    padding:0;
-    
-    
-    
-}
-        
-.container ul li .fa-solid,
-.container ul li .fa-brands {
-    margin-right: 0;
-}
-#logo img{width:100%}
-  
 
-.card {
-        margin: 5% 2%;
-        width: 40%;
-        height: 60vh;
-        padding:2%
+@media only screen and (min-width:376px) and (max-width: 426px) {
+    .container ul {
+        width: 100%;
     }
 
+    .container ul li {
+        padding: 0;}
+
+    .container ul li .fa-solid,
+    .container ul li .fa-brands {
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    #logo img {
+        width: 90%;
+        margin:3%;
+    }
+    h1{margin:0;}
+    main h1 {
+        margin: 10% 5% 0;
+
+    }
+    .card {
+        margin:10% 8%;
+        width: 80%;
+        height: 61vh;
+        padding: 0;
+    }
     .card img {
         width: 80%;
-        height: 300px;
-        margin:5%;
-        
-        }
+        height: 50vh;
+        margin: 6% 7%;
 
-
-main h1 {
-    margin:3% 33% 1%;
-
-}
-
-button {margin:5% 15%;
-        width: 70%;
-        height: 6vh;
     }
+    button {
+        margin: 3% 15%;
+        width: 70%;
+        height: 8vh;
+    }
+
+    footer h1 {
+    font-size: 1.2em;
+    word-spacing: normal;
+    margin:10% 0 0;
 }
-footer h1{font-size:1.2em;
-word-spacing:normal;}
 
 
+}
 
+    
 
+    
 
+    
 
-
-
+    
 
 
